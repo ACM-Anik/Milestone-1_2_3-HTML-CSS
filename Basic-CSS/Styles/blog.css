@@ -1,0 +1,29 @@
+h2{
+    color: chocolate;
+    background-color: rgb(252, 248, 248);
+    size: 50%;
+    box-shadow: chocolate;
+    background-image: url("AikhanoumPlateSharp.jpg");
+  }
+  p {
+    color: cyan;
+    background-color: rgb(162, 63, 187);
+    font:bold;
+    margin: auto;
+    border: 10em;
+    height: auto;
+    width: auto;
+    padding: 2%;
+  }
+img {
+    size: 50%;
+  }
+  ol {
+    color: darkmagenta;
+  }
+  ul {
+    color: darkviolet;
+  }
+  div {
+    color: darkmagenta;
+  }

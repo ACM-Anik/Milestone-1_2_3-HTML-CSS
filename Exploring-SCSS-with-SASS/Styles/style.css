@@ -1,0 +1,22 @@
+h1 {
+  color: aqua;
+}
+
+ul li {
+  color: goldenrod;
+}
+ul li a {
+  text-decoration: none;
+  color: green;
+}
+
+button {
+  border: 1px solid brown;
+  background-color: red;
+  padding: 10px 30px;
+}
+button:hover {
+  color: white;
+  background-color: darkgreen;
+  padding: 20px 40px;
+}/*# sourceMappingURL=style.css.map */

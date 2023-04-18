@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pitha Ghar Form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body> 
+    <header>
+        <nav>
+            <ul>
+                <li><a href="audio-video.html">Media</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">Semantic</a>
+                    <ul class="dropdown">
+                        <li><a href="audio-video.html">Media</a></li>
+                        <li><a href="Groups/family.html">Form</a></li>
+                        <li><a href="Groups/social.html">Table</a></li>
+                        <li><a href="Groups/world.html">Semantic</a></li>
+                        <li><a href="Groups/student.html">Students</a></li>
+                    </ul>
+                </li>
+                <li><a href="non-semantic.html">Non-Semantic</a></li>
+            </ul>
+        </nav>
+    </header>
+    <center><p><h2>Welcome To Jhankar's Ma Pitha Ghar</h2>
+        <small>(First Register Your ID)</small></p></center>
+    <form>
+    <label for="name">
+        <input id="name" type="text" placeholder="Your Name">
+    </label>
+    <label for="email">
+        <input id="email" type="text" placeholder="Your Email">
+    </label>
+    <label for="password">
+        <input type="password" type="text" placeholder="Your Password">
+    </label>
+        <fieldset>
+            <legend>Pick one Pitha</legend>
+            <label for="Vapa">
+                <input type="radio" name="Pitha" id="Vapa">Vapa</label>
+            <label for="Chitoi">
+                <input type="radio" name="Pitha" id="Chitoi">Chitoi</label>
+            <label for="Patisapta">
+                <input type="radio" name="Pitha" id="Patisapta">Patisapta
+            </label>
+        </fieldset>
+    <fieldset>
+        <legend>Select one or more smashed salad</legend>
+        <label for="Sorisha">
+            <input type="checkbox" name="Vorta" id="Sorisha">Sorisha
+        </label>
+        <label for="Sutki">
+            <input type="checkbox" name="Vorta" id="Sutki">Sutki
+        </label>
+        <label for="Dal">
+            <input type="checkbox" name="Vorta" id="Dal">Dal
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Special Instruction</legend>
+    <textarea name="" id="" placeholder="Give your opinion here" cols="30" rows="10"></textarea>
+    </fieldset>
+    <input type="reset" value="Reset Data">
+    <input type="submit" value="Submit">
+    
+</form>
+    
+</body>
+</html>

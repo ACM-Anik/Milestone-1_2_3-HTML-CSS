@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text align </title>
+    <style>
+        .center {
+          text-align: center;
+          border: 4px solid purple;
+        }
+        .center-2 {
+    margin: auto;
+    width: 50%;
+    border: 4px solid purple;
+    padding: 10px;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    position: relative;
+    height: 350px;
+    border: 3px solid #006100;
+  }
+
+  .centered-element {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  /* for both */
+  .centered-element-2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* <!-- Centering an image using CSS positioning: --> */
+  .container {
+    position: relative;
+    height: 350px;
+    border: 4px solid purple;
+  }
+
+  .centered-element {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  /* center image both vertically & horizontally: */
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    border: 4px solid purple; 
+}
+/* Part -3: Centering any standalone text / image / element in horizontally + vertically centering relative to view height & view width: */
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* 2. Centering an image: */
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+/* 3. Centering an element: */
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+
+        </style>
+</head>
+<body>
+   
+    <div class="center">
+        <p>This is Chayti</p>
+    </div>
+    <div class="center-2">
+        <p>This is Chayti</p>
+    </div>
+    <img src="./6r4bo11ccgj0qp9pq88g.jpeg" alt="PHero" style="width:40%">
+    <!-- Centering text using CSS positioning -->
+    <div class="container">
+        <div class="centered-element">
+            <p>Hello, This is Chayti</p>
+        </div>
+ </div>
+ <!-- For both horizontal & vertical center: -->
+ <div class="container">
+    <div class="centered-element-2">
+        <p>Hello, This is Chayti</p>
+    </div>
+    <!-- Centering an image using CSS positioning: -->
+    <div class="container">
+        <div class="centered-element">
+            <img src="./images/Logo-PH.png" alt="PHero" style="width:40%">
+        </div>
+    </div>
+</div>
+<!-- 2. Center image vertically and horizontally with flexbox: -->
+<div class="container">
+    <img src="images/Logo-PH1.png" alt="PHero" style="width:10%">
+      </div>
+<!-- Part -3: Centering any standalone text / image / element in horizontally + vertically centering relative to view height & view width: -->
+<h1 class="content" style="color:tomato">Hello!!! This is me !! Chayti 
+    <!-- 2. Centering an image: -->
+    <div class="content">
+        <img src="images/Logo-PH1.png" alt="PHero" style="width: 20%;">
+    </div>
+    <!-- 3. Centering an element: -->
+    <div class="content">
+        <div style="background-color:tomato; width: 200px; height: 200px;">
+
+        </div>
+    </div>
+</body>
+</html>
